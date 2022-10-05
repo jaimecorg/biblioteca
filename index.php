@@ -13,7 +13,7 @@
     <title>Biblioteca</title>
 </head>
 <body>
-    <h1>Biblioteca</h1>
+    <h3>Biblioteca</h3>
     <p>
         <a href="listadoLibros.php">Libros</a>
     </p>
