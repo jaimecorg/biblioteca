@@ -7,6 +7,10 @@
     if($_POST){
         $_SESSION['libreria'] = $libros;
        
+        //$isbn  = $_POST['isbn'];
+        //$titulo = $_POST['titulo'];
+        //$autor = $_POST['autor'];
+        //$fechaPublicacion = $_POST['fechaPublicacion'];
 
         print_r($libros);
     }
@@ -33,9 +37,6 @@
             background-color: grey;
         }
 
-        #contenedor{
-
-        }
         #tabla{
             margin-left: auto;
             margin-right: auto;            

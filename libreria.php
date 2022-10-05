@@ -42,8 +42,6 @@
         function get_fechaPublicacion() {
             return $this->fechaPublicacion;
         }
-
-
     }
 
 ?>
