@@ -11,8 +11,11 @@
         $fechaPublicacion = $_POST['fechaPublicacion'];
 
         $nuevoLibro = new Libro($isbn, $titulo, $autor, $fechaPublicacion);
+        $_SESSION['libro'] = $nuevoLibro;
 
-        //echo $nuevoLibro."</br>";
+        array_push($_SESSION['libro'], $nuevoLibro);
+        
+        //echo $_SESSION['libro']."</br>";
         print_r($nuevoLibro);
         echo "<br>" . "<a href=\"/biblioteca/listadoLibros.php\">Volver a Listado</a>";
     }
